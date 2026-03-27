@@ -6,9 +6,13 @@ Supports Blackmagic RAW • RED RAW • ARRIRAW • Sony RAW • Apple ProRes RA
 
 Available for macOS and Windows.
 
+## Licensing
+
+The **verified copy** and **thumbnail** tools are free to use without a license. All other tools operate in demo mode without a Tin Man Server license.
+
 ## Requirements
 
-- [Tin Man Server](https://calibratedsoftware.com) installed and licensed
+- [Tin Man Server](https://calibratedsoftware.com)
 - [Claude Cowork](https://claude.ai) desktop app
 
 ## Installation
@@ -49,4 +53,6 @@ The plugin also includes built-in knowledge that helps Claude understand profess
 ## Links
 
 - [Tin Man Server](https://www.calibratedsoftware.com/tin-man-server/)
+- [Tin Man Server User Guide](https://docs.calibratedsoftware.com/tin-man/getting-started-server)
 - [Calibrated Software](https://www.calibratedsoftware.com)
+
