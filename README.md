@@ -12,7 +12,7 @@ The **verified copy** and **thumbnail** tools are free to use without a license.
 
 ## Requirements
 
-- [Tin Man Server](https://calibratedsoftware.com)
+- [Tin Man Server](https://www.calibratedsoftware.com/tin-man-server/)
 - [Claude Cowork](https://claude.ai) desktop app
 
 ## Installation
