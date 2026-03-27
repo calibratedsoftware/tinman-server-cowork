@@ -8,7 +8,7 @@ Available for macOS and Windows.
 
 ## Licensing
 
-The **verified copy** and **create thumbnail** tools are free to use without a license. All other tools operate in demo mode without a Tin Man Server license.
+The **verified copy** and **create thumbnail** tools are currently free to use without a license in Tin Man Server. All other tools operate in demo mode without a Tin Man Server license.
 
 ## Requirements
 
