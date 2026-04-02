@@ -30,15 +30,15 @@ The **verified copy** and **create thumbnail** tools are currently free to use w
 
 **tinman-server:thumbnail** — Generate JPEG thumbnails from media files. Configurable size, quality, number per clip, and Rec 709 tonemapping.
 
-**tinman-server:export** — Transcode/convert media using 57 professional presets. ProRes, DNxHD, DNxHR, H.264, H.265, and more. Custom file naming with tokens.
+**tinman-server:export** — Transcode/convert media using 50+ professional presets. ProRes, DNxHD, DNxHR, H.264, H.265, and more. Custom file naming with tokens.
 
-**tinman-server:copy** — SHA256 verified file copy. Every file checksummed after copy to guarantee integrity.
+**tinman-server:copy** — verified file copy. Every file checksummed after copy to guarantee integrity.
 
 **tinman-server:cancel** — Gracefully stop a running export or copy.
 
 **tinman-server:generate_config** — Returns the default report configuration template as JSON for customizing reports.
 
-**tinman-server:list_export_presets** — Lists all 57 available transcode presets.
+**tinman-server:list_export_presets** — Lists all 50+ available transcode presets.
 
 ## Knowledge
 
