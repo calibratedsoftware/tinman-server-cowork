@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/27655841/README.md)
 # Claude Cowork Plugin for Tin Man Server
 
 A plugin that connects [Tin Man Server](https://calibratedsoftware.com) to Claude Cowork, giving Claude direct access to professional media tools for film and video production workflows. 
@@ -26,19 +27,33 @@ The **verified copy** and **create thumbnail** tools are currently free to use w
 
 **tinman-server:query_metadata** — Full metadata extraction. Camera make/model, serial number, firmware, ISO, white balance, tint, shutter angle, lens model, lens serial, aperture, color space, timecode, slate info, and more.
 
-**tinman-server:generate_report** — Generate formatted clip reports with thumbnails. Supports PDF, HTML, JSON, CSV, and XLSX. Configurable dark mode, Rec 709 tonemapping, custom fields, and thumbnail count.
+**tinman-server:generate_report** — Generate formatted clip reports with thumbnails. Supports PDF, HTML, JSON, CSV, and XLSX. Report types include clip reports and contact sheets. Configurable dark mode, Rec 709 tonemapping, custom fields, thumbnail count, and HTML asset folder export.
 
 **tinman-server:thumbnail** — Generate JPEG thumbnails from media files. Configurable size, quality, number per clip, and Rec 709 tonemapping.
 
-**tinman-server:export** — Transcode/convert media using 50+ professional presets. ProRes, DNxHD, DNxHR, H.264, H.265, and more. Custom file naming with tokens.
+**tinman-server:export** — Transcode/convert media using 50+ professional presets. ProRes, DNxHD, DNxHR, H.264, H.265, and more. Custom file naming with tokens. Preset overrides for resolution (half, quarter, eighth, max-width, fixed-size), bitrate (H.264/H.265), output colorspace (Rec 709, Rec 709 with tonemapping), and source resizing. GPU export engine support.
 
-**tinman-server:copy** — verified file copy. Every file checksummed after copy to guarantee integrity.
+**tinman-server:copy** — Verified file copy. Every file checksummed after copy to guarantee integrity.
 
 **tinman-server:cancel** — Gracefully stop a running export or copy.
 
 **tinman-server:generate_config** — Returns the default report configuration template as JSON for customizing reports.
 
 **tinman-server:list_export_presets** — Lists all 50+ available transcode presets.
+
+## General Options
+
+These options apply globally to all commands:
+
+- **--gpu-cuda** — Use CUDA instead of OpenCL (Windows/NVIDIA only)
+- **--gpu-encode** — Enable GPU export engine (default: CPU)
+- **--rawLog** — Set all RAW files to Log
+- **--raw709** — Set all RAW files to Rec.709
+- **--raw709tonemap** — Set all RAW files to Rec.709 with ToneMapping when available
+- **--raw2020** — Set all RAW files to Rec.2020
+- **--rawHLG** — Set all RAW files to Rec.2020/HLG
+- **--rawPQ** — Set all RAW files to Rec.2020/PQ
+- **--rawACES** — Set all RAW files to ACES AP0
 
 ## Knowledge
 
@@ -55,4 +70,3 @@ The plugin also includes built-in knowledge that helps Claude understand profess
 - [Tin Man Server](https://www.calibratedsoftware.com/tin-man-server/)
 - [Tin Man Server User Guide](https://docs.calibratedsoftware.com/tin-man/getting-started-server)
 - [Calibrated Software](https://www.calibratedsoftware.com)
-
