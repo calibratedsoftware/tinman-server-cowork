@@ -31,7 +31,7 @@ The **verified copy** and **create thumbnail** tools are currently free to use w
 
 **tinman-server:thumbnail** — Generate JPEG thumbnails from media files. Configurable size, quality, number per clip, and Rec 709 tonemapping.
 
-**tinman-server:export** — Transcode/convert media using 50+ professional presets. ProRes, DNxHD, DNxHR, H.264, H.265, and more. Custom file naming with tokens. Preset overrides for resolution (half, quarter, eighth, max-width, fixed-size), bitrate (H.264/H.265), output colorspace (Rec 709, Rec 709 with tonemapping), and source resizing. GPU export engine support.
+**tinman-server:export** — Transcode/convert media using 50+ professional presets. ProRes, DNxHD, DNxHR, H.264, H.265, and more. Custom file naming with tokens. Preset overrides for resolution (half, quarter, eighth, max-width, fixed-size), bitrate (H.264/H.265), output colorspace (Rec 709, Rec 709 with tonemapping), and source resizing. Timecode burn-in and metadata burn-in (JSON config supported). GPU export engine support.
 
 **tinman-server:copy** — Verified file copy. Every file checksummed after copy to guarantee integrity.
 
