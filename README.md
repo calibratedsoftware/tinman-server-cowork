@@ -41,6 +41,28 @@ The **verified copy** and **create thumbnail** tools are currently free to use w
 
 **tinman-server:list_export_presets** — Lists all 50+ available transcode presets.
 
+## Other MCP Clients
+
+To connect Tin Man Server to any MCP-compatible client (Cursor, VS Code, etc.), add the following entry to your client's MCP configuration file.
+
+**Windows:**
+
+```json
+"tinman-server": {
+  "command": "C:\\Program Files\\Calibrated Software\\Tin Man\\python\\python.exe",
+  "args": ["C:\\Program Files\\Calibrated Software\\Tin Man\\Server\\tinman_server_mcp.cpython-310.pyc"]
+}
+```
+
+**macOS:**
+
+```json
+"tinman-server": {
+  "command": "/Applications/Calibrated Tin Man.app/Contents/PlugIns/Frameworks/Python.framework/Versions/3.10/bin/python3",
+  "args": ["/Applications/Calibrated Tin Man.app/Contents/Server/tinman_server_mcp.cpython-310.pyc"]
+}
+```
+
 ## General Options
 
 These options apply globally to all commands:
